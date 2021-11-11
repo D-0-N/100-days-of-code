@@ -1,0 +1,23 @@
+{
+  "name": "sendfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "jest": {
+    "testResultsProcessor": "./node_modules/jest-junit-reporter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "jest-junit-reporter": "^1.1.0",
+    "md5": "^2.3.0",
+    "pm2": "^5.1.2",
+    "supertest": "^6.1.3"
+  }
+}

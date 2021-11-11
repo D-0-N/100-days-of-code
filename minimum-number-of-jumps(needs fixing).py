@@ -7,6 +7,7 @@ while i<len(arr)-1:
         print(-1)
     else:
         step=max(arr[i:i+arr[i]])
-        i+=arr.index(step)
-        count+=1
-print(count)
+        print(step)
+        # i+=arr.index(step)
+        # count+=1
+# print(count)
