@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title "Jade Template Engine"
+  body
+    h1 "Conditions and Loops in Jade"
+    if (option === "students")
+      ol
+      each name in Students
+        li= name
+    else if (option === "teachers" )  
+      ol
+      each name in Teachers
+          li= name
+    else
+        p "You have entered wrong option!"
