@@ -6,15 +6,6 @@
 #     return triple_step(i-1)*triple_step(i-2)*triple_step(i-3)
 
     # Memoization
-# def triple_step(n):
-#     return triple_step(n, [0]*n)
-# def triple_step(i,memo):
-#     if(i==1 or i==2 or i==3):
-#         return i
-#     if memo[i]==0:
-#         memo[i]=triple_step(i-1,memo)*triple_step(i-2,memo)*triple_step(i-3,memo)
-#     return memo[i]
-
 def triple_step(n,memo=[]):
     if memo==[]:
         memo=[0]*n
