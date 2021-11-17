@@ -1,0 +1,23 @@
+{
+  "name": "module-and-filesystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/pm2 start -f app.js --watch",
+    "test": "mocha --reporter mocha-junit-reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "mocha-junit-reporter": "^1.23.3"
+  }
+}
