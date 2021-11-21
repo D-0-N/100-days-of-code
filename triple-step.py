@@ -16,4 +16,4 @@ def triple_step(n,memo=[]):
     return memo[n-1]
         
 
-print(triple_step(100))
+print(triple_step(8))
